@@ -1,0 +1,415 @@
+{# Load the tag library #}
+{% load bootstrap3 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
+
+
+{# Display a form #}
+
+<div class="container-fluid">
+        <div class="row centered-form">
+        <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset- col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                        <h1 >Find bowlers <small>who</small></h1>
+                        </div>
+                        <div class="panel-body">
+                        
+
+                        <form role="form" action="" method="post">
+                            {% csrf_token %}
+                        
+                            Played between the years
+                            <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            <input type="text" name="years1" id="first_name" class="form-control input-sm" placeholder="YYYY">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        to
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+
+                                        <input type="text" name="years2" id="last_name" class="form-control input-sm" placeholder="YYYY">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            and played atleast 
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        <input type="text" name="matches1" id="last_name" class="form-control input-sm" placeholder="0">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+matches
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            and a maximum of
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        <input type="text" name="matches2" id="last_name" class="form-control input-sm" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+matches
+
+                                    </div>
+                                </div>
+                            </div>
+
+ <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            played atleast
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        <input type="text" name="inn1" id="last_name" class="form-control input-sm" placeholder="0">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+innings
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+<div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            and a maximum of
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        <input type="text" name="inn2" id="last_name" class="form-control input-sm" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+innings
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+and bowled balls
+                            <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            <input type="text" name="balls1" id="first_name" class="form-control input-sm" placeholder="0">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        to
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+
+                                        <input type="text" name="balls2" id="last_name" class="form-control input-sm" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+
+scored runs between
+                            <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            <input type="text" name="runs1" id="first_name" class="form-control input-sm" placeholder="0">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        to
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+
+                                        <input type="text" name="runs2" id="last_name" class="form-control input-sm" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+
+taken wickets
+                            <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            <input type="text" name="wk1" id="first_name" class="form-control input-sm" placeholder="0">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        to
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+
+                                        <input type="text" name="wk2" id="last_name" class="form-control input-sm" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+with an average of
+                            <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            <input type="text" name="avg1" id="first_name" class="form-control input-sm" placeholder="0">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        to
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+
+                                        <input type="text" name="avg2" id="last_name" class="form-control input-sm" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+
+with a bowling economy between
+                            <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            <input type="text" name="ec1" id="first_name" class="form-control input-sm" placeholder="0">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        to
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+
+                                        <input type="text" name="ec2" id="last_name" class="form-control input-sm" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+with a bowling strike rate between
+                            <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            <input type="text" name="sr1" id="first_name" class="form-control input-sm" placeholder="0">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        to
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+
+                                        <input type="text" name="sr2" id="last_name" class="form-control input-sm" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+       <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            and taken 4 wickets in  
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        <input type="text" name="fours1" id="last_name" class="form-control input-sm" placeholder="0">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+matches
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            and a in a maximum of 
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        <input type="text" name="fours2" id="last_name" class="form-control input-sm" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+matches
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+       <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            and taken 5 wickets in  
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        <input type="text" name="fives1" id="last_name" class="form-control input-sm" placeholder="0">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+matches
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    
+                                    <div class="form-group">
+                                    
+                            and a in a maximum of 
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xs-2 col-sm-2 col-md-2">
+                                    <div class="form-group">
+                                        <input type="text" name="fives2" id="last_name" class="form-control input-sm" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-5 col-sm-5 col-md-5">
+                                    <div class="form-group">
+matches
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            
+                            <input type="submit" value="GO" class="btn btn-info btn-block">
+                        
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

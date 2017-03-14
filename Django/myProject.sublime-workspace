@@ -1,0 +1,435 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"noOfPages"
+			],
+			[
+				"s",
+				"spans"
+			],
+			[
+				"nam",
+				"names"
+			],
+			[
+				"csv",
+				"csvfile"
+			],
+			[
+				"pag",
+				"pageNo"
+			],
+			[
+				"Bin",
+				"binaryBooleanOperations"
+			],
+			[
+				"bina",
+				"binaryBooleanOperations"
+			],
+			[
+				"def",
+				"defnitionConstruct"
+			],
+			[
+				"par",
+				"paranthesis"
+			],
+			[
+				"myMul",
+				"myMul1"
+			],
+			[
+				"myrev",
+				"myreverse"
+			],
+			[
+				"myM",
+				"myMul3"
+			],
+			[
+				"rever",
+				"reverse"
+			],
+			[
+				"re",
+				"reverse"
+			],
+			[
+				"myS",
+				"mySub0"
+			],
+			[
+				"mySu",
+				"mySub0"
+			],
+			[
+				"Rever",
+				"myReverseSign"
+			],
+			[
+				"mys",
+				"mySub2"
+			],
+			[
+				"N",
+				"NonNeg"
+			],
+			[
+				"my",
+				"myAdd1"
+			],
+			[
+				"myA",
+				"myAdd2"
+			],
+			[
+				"in",
+				"in"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/tarun/Workspace/DBMSProject/idea",
+			"settings":
+			{
+				"buffer_size": 850,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/players/views.py",
+			"settings":
+			{
+				"buffer_size": 2953,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/mysite/urls.py",
+			"settings":
+			{
+				"buffer_size": 820,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/players/urls.py",
+			"settings":
+			{
+				"buffer_size": 182,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/tarun/Workspace/DBMSProject/Django/src",
+		"/home/tarun/Workspace/DBMSProject/Django/src/mysite",
+		"/home/tarun/Workspace/DBMSProject/Django/src/players",
+		"/home/tarun/Workspace/DBMSProject/Django/src/players/templates"
+	],
+	"file_history":
+	[
+		"/home/tarun/Workspace/DBMSProject/Django/src/players/templates/findBatsman.html",
+		"/home/tarun/Workspace/DBMSProject/Django/src/players/templates/index.html",
+		"/home/tarun/Workspace/DBMSProject/Django/src/players/templates/results.html",
+		"/home/tarun/Workspace/DBMSProject/Django/src/mysite/urls.py",
+		"/home/tarun/Workspace/DBMSProject/Django/src/players/urls.py",
+		"/home/tarun/Workspace/DBMSProject/Django/src/players/views.py",
+		"/home/tarun/Workspace/DBMSProject/Django/src/mysite/settings.py",
+		"/home/tarun/Workspace/DBMSProject/Django/src/templates/index.html",
+		"/home/tarun/Workspace/DBMSProject/Django/src/templates/players/index.html",
+		"/home/tarun/Workspace/DBMSProject/Django/src/players/templates/findPlayer.html",
+		"/home/tarun/Workspace/DBMSProject/Django/src/players/models.py",
+		"/home/tarun/Desktop/DBMS Project/Scraping/Scrapping2.py",
+		"/home/tarun/Desktop/DBMS Project/Scraping/Scrapping.py",
+		"/home/tarun/Desktop/PL/lexer.mll",
+		"/home/tarun/Desktop/PL/lexer.ml",
+		"/home/tarun/Desktop/PL/test.mll",
+		"/home/tarun/Desktop/PL_Assgn1/BigInt.ml",
+		"/home/tarun/Desktop/PLTESTING",
+		"/home/tarun/Encrypted/InsideMyHead/Data/Experiences/GGJ2017",
+		"/home/tarun/Desktop/NewTextFile"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hs"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/tarun/Workspace/DBMSProject/Django/src"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/tarun/Workspace/DBMSProject/idea",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/players/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								384,
+								384
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 19.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/mysite/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								815
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/players/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
